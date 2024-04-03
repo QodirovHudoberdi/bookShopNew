@@ -1,0 +1,14 @@
+server:
+  port: 8488
+  #########################
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username : book-shop-user
+    password: 1
+    url: jdbc:postgresql://localhost:5432/book-shop-db
+      ########

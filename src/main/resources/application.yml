@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: prod
+#########
+
+jwt:
+  token:
+    secret : fdsgsfdsfsfd
+    validity : 86400000
