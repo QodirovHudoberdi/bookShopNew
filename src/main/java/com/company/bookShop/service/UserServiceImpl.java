@@ -7,7 +7,6 @@ import com.company.bookShop.dto.registration.RegistrationResDto;
 import com.company.bookShop.entity.User;
 import com.company.bookShop.exps.UserException;
 import com.company.bookShop.mapper.RegistrationMapper;
-import com.company.bookShop.repository.RoleRepository;
 import com.company.bookShop.repository.UserRepository;
 import com.company.bookShop.utils.JwtUtil;
 import jakarta.servlet.http.HttpServletRequest;
@@ -20,7 +19,6 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
-    private final RoleRepository roleRepository;
     private final RegistrationMapper registrationMapper;
 
     @Override
