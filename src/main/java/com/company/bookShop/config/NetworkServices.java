@@ -4,11 +4,6 @@ import jakarta.servlet.http.HttpServletRequest;
 
 import java.net.SocketException;
 
-/**
- * @project: middleware-service
- * @Date: 05.09.2022
- * @author: H_Urunov
- **/
 
 public interface NetworkServices {
 

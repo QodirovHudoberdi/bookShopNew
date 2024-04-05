@@ -1,4 +1,4 @@
-package com.company.bookShop.service;
+package com.company.bookShop.service.impl;
 
 import com.company.bookShop.entity.User;
 import com.company.bookShop.repository.UserRepository;

@@ -11,7 +11,7 @@ public class LoginResponseDto {
     private String username;
     private String firstName;
     private String lastName;
-    private RoleResDto role;
+    private Set<RoleResDto> roles;
     private String token;
     private String refreshToken;
 }

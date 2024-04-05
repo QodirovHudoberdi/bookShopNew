@@ -12,6 +12,7 @@ public interface EntityMapping<E, RQ, RS> {
 
     @BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
     E toEntity(RQ req);
+    E toEntity1(RS req);
 
     RS toDto(E entity);
 

@@ -6,7 +6,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class BookRequestDto {
-    private Long id;
     private String name;
-    private Long authorId;
+    private String writer;
+    private Integer quantity;
 }

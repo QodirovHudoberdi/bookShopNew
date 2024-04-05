@@ -1,9 +1,10 @@
 package com.company.bookShop.audit;
 
-
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
+import lombok.Data;
 import org.hibernate.annotations.CurrentTimestamp;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
@@ -11,8 +12,8 @@ import org.springframework.data.annotation.LastModifiedDate;
 
 import java.io.Serial;
 import java.io.Serializable;
-import java.time.Instant;
 
+@Data
 @MappedSuperclass
 @JsonIgnoreProperties(
         value = {"createdAt", "updatedAt", "createdBy"},
@@ -24,13 +25,15 @@ public abstract class DateAudit implements Serializable {
     @CreatedDate
     @Column(updatable = false)
     @CurrentTimestamp
-    private Instant createdAt;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Tashkent")
+    private String createdAt;
 
     @LastModifiedDate
-    @Column(nullable = false)
-    private Instant updatedAt;
+    @Column
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Tashkent")
+    private String updatedAt;
 
     @CreatedBy
-    @Column(updatable = false)
+    @Column(name = "created_by", updatable = false)
     private String createdBy;
 }

@@ -5,6 +5,7 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import org.springframework.security.core.context.SecurityContextHolder;
 
 import java.util.Base64;
 import java.util.Date;
@@ -15,13 +16,11 @@ public class JwtUtil {
     public static String encode(String username) {
         byte[] decodedSecret = Base64.getDecoder().decode(secretKey);
 
-        String jwtToken = Jwts.builder()
+
+        return Jwts.builder()
                 .setSubject(username)
                 .setAudience("Solr")
                 .signWith(SignatureAlgorithm.HS256, decodedSecret).compact();
-
-
-        return jwtToken;
     }
 
     public static Long decode(String token) {
@@ -31,17 +30,21 @@ public class JwtUtil {
                 .parseClaimsJws(token)
                 .getBody();
 
-        Long id = (Long) claims.get("id");
-        return id;
+        return (Long) claims.get("id");
     }
 
-    public static String getRefreshToken(LoginResponseDto loginResponseDto) {
-        JwtBuilder jwtBuilder = Jwts.builder();
-        jwtBuilder.setIssuedAt(new Date());
-        jwtBuilder.setExpiration(new Date(System.currentTimeMillis() + (24 * 60 * 60 * 1000)));
-        jwtBuilder.setIssuer("Bearer");
-        jwtBuilder.signWith(SignatureAlgorithm.HS256, secretKey);
-        jwtBuilder.claim("loginResponseDto", loginResponseDto);
-        return jwtBuilder.compact();
+    public static String getRefreshToken(String usPas) {
+        byte[] decodedSecret = Base64.getDecoder().decode(secretKey);
+
+
+        return Jwts.builder()
+                .setSubject(usPas)
+                .setAudience("Solr")
+                .signWith(SignatureAlgorithm.HS256, decodedSecret).compact();
+    }
+
+    public static String getCurrentUserName(){
+        return SecurityContextHolder.getContext().getAuthentication().getName();
+
     }
 }

@@ -1,6 +1,6 @@
 package com.company.bookShop.config;
 
-import com.company.bookShop.service.CustomUserDetailServiceImpl;
+import com.company.bookShop.service.impl.CustomUserDetailServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

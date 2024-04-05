@@ -54,6 +54,7 @@ public class JwtTokenProvider {
         loginResponseDTO.setUsername(user.getUsername());
         loginResponseDTO.setFirstName(user.getFirstName());
         loginResponseDTO.setLastName(user.getLastName());
+        loginResponseDTO.setRoles(roleMapper.toDto(user.getRoles()));
         loginResponseDTO.setToken(generateToken(user));
         if (rememberMe) {
             user.setRefreshToken(generateRefreshToken(user));
@@ -69,7 +70,7 @@ public class JwtTokenProvider {
         return Base64.getEncoder().encodeToString(generateToken(user).getBytes());
     }
 
-    private String generateToken(User user) {
+    private  String generateToken(User user) {
         Date now = new Date();
         Date validity = new Date(now.getTime() + validityMilliSecond);
         Claims claims = Jwts.claims().setSubject(user.getUsername());
@@ -115,7 +116,7 @@ public class JwtTokenProvider {
         return Jwts.parser().setSigningKey(secret).parseClaimsJws(token).getBody().getSubject();
     }
 
-    public String getCurrentUser() {
+    public static String getCurrentUser() {
         return SecurityContextHolder.getContext().getAuthentication().getName();
     }
 

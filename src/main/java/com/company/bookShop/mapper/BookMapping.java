@@ -7,5 +7,5 @@ import com.company.bookShop.dto.book.BookRequestDto;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")
-public interface BookMapping extends EntityMapping<BooksEntity, BookRequestDto, BookResponseDto>{
+public interface BookMapping extends EntityMapping<BooksEntity,BookRequestDto,BookResponseDto>{
 }
