@@ -104,7 +104,7 @@ public class RoleServiceImpl implements RoleService {
             User user1 = user.get();
             user1.setRoles(roles);
             userRepository.save(user1);
-
+   
         return userMapping.toDto(user1);
         }
         throw new NotFoundException("user Not Found");
