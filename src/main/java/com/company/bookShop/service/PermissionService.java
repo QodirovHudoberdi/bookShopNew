@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import java.util.List;
 
 public interface PermissionService {
-    PermissionDto create(PermissionDto dto, HttpServletRequest httpServletRequest);
+    PermissionDto createPermission(PermissionDto dto, HttpServletRequest httpServletRequest);
 
     RoleResDto givePermissions(Long roleId, List<Long> permissionIds);
 }

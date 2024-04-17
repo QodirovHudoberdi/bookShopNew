@@ -16,4 +16,5 @@ public class BookResponseDto {
     private String writer;
     private String createdBy;
     private Integer quantity;
+    private Long price;
 }

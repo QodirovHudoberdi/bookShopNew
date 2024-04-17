@@ -18,6 +18,7 @@ public interface EntityMapping<E, RQ, RS> {
 
     @BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
     E updateFromDto(RQ req, @MappingTarget E entity);
+    E updateFromEntity(E ent, @MappingTarget E entity);
 
     List<E> toEntity(List<RQ> dtoList);
 

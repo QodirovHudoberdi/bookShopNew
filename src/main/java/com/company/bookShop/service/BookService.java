@@ -9,11 +9,11 @@ import java.util.List;
 
 public interface BookService {
 
-    BookResponseDto create(BookRequestDto dto, HttpServletRequest httpServletRequest);
+    BookResponseDto createBook(BookRequestDto dto, HttpServletRequest httpServletRequest);
 
     List<BookResponseDto> getList(Integer pageNo, Integer pageSize, HttpServletRequest httpServletRequest);
 
-    BookResponseDto update(Integer id ,BookRequestDto dto, HttpServletRequest httpServletRequest);
+    BookResponseDto updateBook(Integer id , BookRequestDto dto, HttpServletRequest httpServletRequest);
 
-    void delete(Integer id, HttpServletRequest httpServletRequest);
+    void deleteBook(Integer id, HttpServletRequest httpServletRequest);
 }

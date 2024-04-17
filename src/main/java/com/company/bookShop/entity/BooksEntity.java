@@ -27,4 +27,6 @@ public class BooksEntity extends DateAudit {
    private String writer;
     @Column
     private Integer quantity;
+    @Column
+    private Integer price;
 }

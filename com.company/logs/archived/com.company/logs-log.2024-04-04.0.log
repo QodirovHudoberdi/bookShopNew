@@ -36,7 +36,7 @@
 2024-04-04 09:46:41 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 09:46:41 [http-nio-8488-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
 2024-04-04 09:46:41 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 09:46:41 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 09:46:41 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 09:46:42 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@6a733deb]
 2024-04-04 09:46:42 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 09:46:42 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -50,7 +50,7 @@
 2024-04-04 09:46:42 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Thu Apr 04 09:46:42 UZT 2024, status=406, error=Not Acceptable, path=/auth/registration}]
 2024-04-04 09:46:42 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 406
 2024-04-04 09:48:10 [http-nio-8488-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 09:48:10 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 09:48:10 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 09:48:10 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@3f5de5f2]
 2024-04-04 09:48:10 [http-nio-8488-exec-5] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 09:48:10 [http-nio-8488-exec-5] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -62,7 +62,7 @@
 2024-04-04 09:48:10 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.company.bookShop.exps.AlreadyExistException: This username is busy]
 2024-04-04 09:48:10 [http-nio-8488-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 100 CONTINUE
 2024-04-04 09:49:38 [http-nio-8488-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 09:49:38 [http-nio-8488-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 09:49:38 [http-nio-8488-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 09:49:38 [http-nio-8488-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@5f051773]
 2024-04-04 09:49:38 [http-nio-8488-exec-8] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 09:49:38 [http-nio-8488-exec-8] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -116,7 +116,7 @@
 2024-04-04 09:56:01 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 09:56:01 [http-nio-8488-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
 2024-04-04 09:56:01 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 09:56:01 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 09:56:01 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 09:56:01 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@4c0acbcb]
 2024-04-04 09:56:01 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 09:56:01 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -165,7 +165,7 @@
 2024-04-04 09:59:39 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 09:59:39 [http-nio-8488-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
 2024-04-04 09:59:39 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 09:59:39 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 09:59:39 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 09:59:39 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@21ce9971]
 2024-04-04 09:59:39 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 09:59:39 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -177,7 +177,7 @@
 2024-04-04 09:59:40 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.company.bookShop.exps.AlreadyExistException: This username is busy]
 2024-04-04 09:59:40 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 100 CONTINUE
 2024-04-04 10:00:44 [http-nio-8488-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:00:44 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:00:44 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:00:44 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@17ea205d]
 2024-04-04 10:00:44 [http-nio-8488-exec-5] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:00:44 [http-nio-8488-exec-5] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -229,7 +229,7 @@
 2024-04-04 10:05:24 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 10:05:24 [http-nio-8488-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
 2024-04-04 10:05:24 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:05:24 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:05:24 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:05:24 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@3805f3ea]
 2024-04-04 10:05:24 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:05:24 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -281,7 +281,7 @@
 2024-04-04 10:12:26 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 10:12:26 [http-nio-8488-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
 2024-04-04 10:12:26 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:12:26 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:12:26 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:12:27 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@75ff12ad]
 2024-04-04 10:12:27 [http-nio-8488-exec-1] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:12:27 [http-nio-8488-exec-1] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -290,7 +290,7 @@
 2024-04-04 10:12:27 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.company.bookShop.dto.registration.RegistrationResDto@53fb3d08]
 2024-04-04 10:12:27 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
 2024-04-04 10:12:35 [http-nio-8488-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:12:35 [http-nio-8488-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:12:35 [http-nio-8488-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:12:35 [http-nio-8488-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@49f442e]
 2024-04-04 10:12:35 [http-nio-8488-exec-3] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:12:35 [http-nio-8488-exec-3] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -342,7 +342,7 @@
 2024-04-04 10:13:52 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 10:13:52 [http-nio-8488-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
 2024-04-04 10:13:52 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:13:52 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:13:52 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:13:52 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@6ad35e16]
 2024-04-04 10:13:53 [http-nio-8488-exec-1] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:13:53 [http-nio-8488-exec-1] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -354,7 +354,7 @@
 2024-04-04 10:17:39 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.company.bookShop.dto.registration.RegistrationResDto@480bf9eb]
 2024-04-04 10:17:39 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
 2024-04-04 10:17:52 [http-nio-8488-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:17:52 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:17:52 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:17:52 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@453dc9fc]
 2024-04-04 10:17:52 [http-nio-8488-exec-4] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:17:52 [http-nio-8488-exec-4] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -404,7 +404,7 @@
 2024-04-04 10:22:37 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 10:22:37 [http-nio-8488-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
 2024-04-04 10:22:37 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:22:37 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:22:37 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:22:38 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@26861a71]
 2024-04-04 10:22:38 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:22:38 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -453,7 +453,7 @@
 2024-04-04 10:28:38 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 10:28:38 [http-nio-8488-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
 2024-04-04 10:28:38 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:28:38 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:28:38 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:28:38 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@3fc20f47]
 2024-04-04 10:28:38 [http-nio-8488-exec-1] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:28:38 [http-nio-8488-exec-1] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -464,7 +464,7 @@
 2024-04-04 10:28:39 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.company.bookShop.exps.AlreadyExistException: This username is busy]
 2024-04-04 10:28:39 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 100 CONTINUE
 2024-04-04 10:37:03 [http-nio-8488-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:37:03 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:37:03 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:37:03 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@575884ff]
 2024-04-04 10:37:03 [http-nio-8488-exec-5] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:37:03 [http-nio-8488-exec-5] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -515,7 +515,7 @@
 2024-04-04 10:39:45 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 10:39:45 [http-nio-8488-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
 2024-04-04 10:39:45 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/auth/registration", parameters={}
-2024-04-04 10:39:45 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#registration(RegistrationReqDto, HttpServletRequest)
+2024-04-04 10:39:45 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#registration(RegistrationReqDto, HttpServletRequest)
 2024-04-04 10:39:45 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.company.bookShop.dto.registration.RegistrationReqDto@193cf0ce]
 2024-04-04 10:39:51 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client host : 		 localhost
 2024-04-04 10:39:52 [http-nio-8488-exec-2] INFO  c.c.b.service.impl.UserServiceImpl - Client IP :  		 192.168.68.169
@@ -566,7 +566,7 @@
 2024-04-04 13:04:58 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 13:04:58 [http-nio-8488-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
 2024-04-04 13:04:58 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:04:58 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:04:58 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:04:58 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:04:59 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-04-04 13:04:59 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [LoginResponseDto(id=1, username=admin, firstName=adm, lastName=admin, role=null, token=eyJhbGciOiJIU (truncated)...]
@@ -617,7 +617,7 @@
 2024-04-04 13:17:41 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 13:17:41 [http-nio-8488-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
 2024-04-04 13:17:41 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:17:41 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:17:41 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:17:41 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:17:42 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalStateException: Unable to serialize claims object to json.
 2024-04-04 13:17:42 [http-nio-8488-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Unable to serialize claims object to json.] with root cause
@@ -645,7 +645,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time 
 	at com.company.bookShop.config.JwtTokenProvider.generateToken(JwtTokenProvider.java:81)
 	at com.company.bookShop.config.JwtTokenProvider.createToken(JwtTokenProvider.java:57)
 	at com.company.bookShop.service.impl.UserServiceImpl.login(UserServiceImpl.java:47)
-	at com.company.bookShop.controller.AuthController.login(AuthController.java:24)
+	at com.company.bookShop.controller.login.AuthController.login(AuthController.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -791,7 +791,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time 
 2024-04-04 13:20:08 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 13:20:08 [http-nio-8488-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
 2024-04-04 13:20:08 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:20:08 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:20:08 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:20:08 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:20:08 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalStateException: Unable to serialize claims object to json.
 2024-04-04 13:20:08 [http-nio-8488-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Unable to serialize claims object to json.] with root cause
@@ -819,7 +819,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time 
 	at com.company.bookShop.config.JwtTokenProvider.generateToken(JwtTokenProvider.java:81)
 	at com.company.bookShop.config.JwtTokenProvider.createToken(JwtTokenProvider.java:57)
 	at com.company.bookShop.service.impl.UserServiceImpl.login(UserServiceImpl.java:38)
-	at com.company.bookShop.controller.AuthController.login(AuthController.java:24)
+	at com.company.bookShop.controller.login.AuthController.login(AuthController.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -933,7 +933,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time 
 2024-04-04 13:20:29 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Thu Apr 04 13:20:29 UZT 2024, status=405, error=Method Not Allowed, path=/auth/login}]
 2024-04-04 13:20:29 [http-nio-8488-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 405
 2024-04-04 13:20:44 [http-nio-8488-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:20:44 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:20:44 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:20:44 [http-nio-8488-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:20:44 [http-nio-8488-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalStateException: Unable to serialize claims object to json.
 2024-04-04 13:20:44 [http-nio-8488-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Unable to serialize claims object to json.] with root cause
@@ -961,7 +961,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time 
 	at com.company.bookShop.config.JwtTokenProvider.generateToken(JwtTokenProvider.java:81)
 	at com.company.bookShop.config.JwtTokenProvider.createToken(JwtTokenProvider.java:57)
 	at com.company.bookShop.service.impl.UserServiceImpl.login(UserServiceImpl.java:38)
-	at com.company.bookShop.controller.AuthController.login(AuthController.java:24)
+	at com.company.bookShop.controller.login.AuthController.login(AuthController.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1107,7 +1107,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time 
 2024-04-04 13:22:59 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 13:22:59 [http-nio-8488-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
 2024-04-04 13:22:59 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:22:59 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:22:59 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:22:59 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:23:00 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Failed to complete request: java.lang.IllegalStateException: Unable to serialize claims object to json.
 2024-04-04 13:23:00 [http-nio-8488-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Unable to serialize claims object to json.] with root cause
@@ -1135,7 +1135,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time 
 	at com.company.bookShop.config.JwtTokenProvider.generateToken(JwtTokenProvider.java:81)
 	at com.company.bookShop.config.JwtTokenProvider.createToken(JwtTokenProvider.java:57)
 	at com.company.bookShop.service.impl.UserServiceImpl.login(UserServiceImpl.java:38)
-	at com.company.bookShop.controller.AuthController.login(AuthController.java:24)
+	at com.company.bookShop.controller.login.AuthController.login(AuthController.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1241,7 +1241,7 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time 
 2024-04-04 13:23:00 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Thu Apr 04 13:23:00 UZT 2024, status=500, error=Internal Server Error, path=/auth/login}]
 2024-04-04 13:23:00 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 500
 2024-04-04 13:24:46 [http-nio-8488-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:24:46 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:24:46 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:24:46 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:24:46 [http-nio-8488-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 42703
 2024-04-04 13:24:46 [http-nio-8488-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: столбец r1_1.updated_at не существует
@@ -1325,7 +1325,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец r1_1.updated_at 
 	at jdk.proxy2/jdk.proxy2.$Proxy139.findByUsername(Unknown Source)
 	at com.company.bookShop.config.JwtTokenProvider.createToken(JwtTokenProvider.java:45)
 	at com.company.bookShop.service.impl.UserServiceImpl.login(UserServiceImpl.java:38)
-	at com.company.bookShop.controller.AuthController.login(AuthController.java:24)
+	at com.company.bookShop.controller.login.AuthController.login(AuthController.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1431,7 +1431,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец r1_1.updated_at 
 2024-04-04 13:24:46 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Thu Apr 04 13:24:46 UZT 2024, status=500, error=Internal Server Error, path=/auth/login}]
 2024-04-04 13:24:46 [http-nio-8488-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 500
 2024-04-04 13:24:56 [http-nio-8488-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:24:56 [http-nio-8488-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:24:56 [http-nio-8488-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:24:56 [http-nio-8488-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:24:56 [http-nio-8488-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 42703
 2024-04-04 13:24:56 [http-nio-8488-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: столбец r1_1.updated_at не существует
@@ -1515,7 +1515,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец r1_1.updated_at 
 	at jdk.proxy2/jdk.proxy2.$Proxy139.findByUsername(Unknown Source)
 	at com.company.bookShop.config.JwtTokenProvider.createToken(JwtTokenProvider.java:45)
 	at com.company.bookShop.service.impl.UserServiceImpl.login(UserServiceImpl.java:38)
-	at com.company.bookShop.controller.AuthController.login(AuthController.java:24)
+	at com.company.bookShop.controller.login.AuthController.login(AuthController.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1692,7 +1692,7 @@ org.postgresql.util.PSQLException: ОШИБКА: столбец r1_1.updated_at 
 2024-04-04 13:27:07 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 13:27:07 [http-nio-8488-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
 2024-04-04 13:27:07 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:27:07 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:27:07 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:27:07 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:27:08 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-04-04 13:27:08 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [LoginResponseDto(id=1, username=admin, firstName=adm, lastName=admin, role=null, token=eyJhbGciOiJIU (truncated)...]
@@ -1909,7 +1909,7 @@ java.lang.NullPointerException: Cannot invoke "com.company.bookShop.entity.Role.
 2024-04-04 13:30:53 [http-nio-8488-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.company.bookShop.exps.AlreadyExistException: This role already created]
 2024-04-04 13:30:53 [http-nio-8488-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 100 CONTINUE
 2024-04-04 13:31:11 [http-nio-8488-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 13:31:11 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 13:31:11 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 13:31:11 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 13:31:11 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-04-04 13:31:11 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [LoginResponseDto(id=1, username=admin, firstName=adm, lastName=admin, role=null, token=eyJhbGciOiJIU (truncated)...]
@@ -2998,19 +2998,19 @@ java.lang.NoSuchMethodError: 'void com.company.bookShop.entity.BooksEntity.setAu
 2024-04-04 22:19:36 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2024-04-04 22:19:36 [http-nio-8488-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
 2024-04-04 22:19:36 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 22:19:36 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 22:19:36 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 22:19:36 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 22:19:36 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-04-04 22:19:36 [http-nio-8488-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [LoginResponseDto(id=1, username=admin, firstName=adm, lastName=admin, role=null, token=eyJhbGciOiJIU (truncated)...]
 2024-04-04 22:19:36 [http-nio-8488-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
 2024-04-04 22:19:57 [http-nio-8488-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 22:19:57 [http-nio-8488-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 22:19:57 [http-nio-8488-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 22:19:57 [http-nio-8488-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 22:19:57 [http-nio-8488-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-04-04 22:19:57 [http-nio-8488-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [LoginResponseDto(id=1, username=admin, firstName=adm, lastName=admin, role=null, token=eyJhbGciOiJIU (truncated)...]
 2024-04-04 22:19:57 [http-nio-8488-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
 2024-04-04 22:19:59 [http-nio-8488-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/auth/login", parameters={}
-2024-04-04 22:19:59 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.AuthController#login(LoginRequestDto, HttpServletRequest)
+2024-04-04 22:19:59 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.company.bookShop.controller.login.AuthController#login(LoginRequestDto, HttpServletRequest)
 2024-04-04 22:19:59 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [LoginRequestDto(username=admin, password=123, rememberMe=true)]
 2024-04-04 22:19:59 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-04-04 22:19:59 [http-nio-8488-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [LoginResponseDto(id=1, username=admin, firstName=adm, lastName=admin, role=null, token=eyJhbGciOiJIU (truncated)...]

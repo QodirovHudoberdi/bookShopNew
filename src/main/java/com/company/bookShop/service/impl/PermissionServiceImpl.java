@@ -26,8 +26,14 @@ public class PermissionServiceImpl implements PermissionService {
     private final RoleRepository roleRepository;
     private final RoleMapper roleMapper;
 
+    /**
+     * Create Permission
+     * @param dto Details of new Permission
+     * @param httpServletRequest Define to Device
+     * @return Details of Created Permission
+     */
     @Override
-    public PermissionDto create(PermissionDto dto, HttpServletRequest httpServletRequest) {
+    public PermissionDto createPermission(PermissionDto dto, HttpServletRequest httpServletRequest) {
         Permission byName = permissionRepository.findByName(dto.getName());
         if (byName == null) {
             Permission permission = new Permission();
@@ -38,6 +44,13 @@ public class PermissionServiceImpl implements PermissionService {
         }
         throw new AlreadyExistException("This Permission already Create");
     }
+
+    /**
+     * Give Permission to User
+     * @param roleId id Of Role
+     * @param permissionIds ids of Permission
+     * @return Role with permission id changed
+     */
     @Override
     public RoleResDto givePermissions(Long roleId, List<Long> permissionIds) {
         Optional<Role> roleById = roleRepository.findById(roleId);

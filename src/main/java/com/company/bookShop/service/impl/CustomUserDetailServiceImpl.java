@@ -22,6 +22,12 @@ public class CustomUserDetailServiceImpl implements UserDetailsService {
 
     private final UserRepository userRepository;
 
+    /***
+     * Load UserDetails
+     * @param username of we need user
+     * @return UserDetails
+     * @throws UsernameNotFoundException work if username not found
+     */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepository.findByUsername(username);

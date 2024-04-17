@@ -8,5 +8,6 @@ import lombok.Setter;
 public class BookRequestDto {
     private String name;
     private String writer;
+    private Long price;
     private Integer quantity;
 }

@@ -1,5 +1,6 @@
-package com.company.bookShop.controller;
+package com.company.bookShop.controller.login;
 
+import com.company.bookShop.config.JwtTokenProvider;
 import com.company.bookShop.dto.registration.RegistrationReqDto;
 import com.company.bookShop.service.UserService;
 import com.company.bookShop.dto.login.LoginRequestDto;
