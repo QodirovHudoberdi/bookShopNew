@@ -1,4 +1,4 @@
-
+>>HEAD
 # Book Shop -service
 
 ### Automation of Book Shop  operation systems
@@ -41,3 +41,5 @@ public class BookShopApplication {
 | 6  | [Order Details Service](https://github.com/QodirovHudoberdi/bookShopNew/blob/master/src/main/java/com/company/bookShop/controller/OrderDetailController.java) |   ✅    |
 | 7  |        [Order Service](https://github.com/QodirovHudoberdi/bookShopNew/blob/master/src/main/java/com/company/bookShop/controller/OrderController.java)         |   ✅    |
 | 8  |   [Statistics Service](https://github.com/QodirovHudoberdi/bookShopNew/blob/master/src/main/java/com/company/bookShop/controller/StatsController.java)    |   ✅    |
+
+>>>>origin/master
